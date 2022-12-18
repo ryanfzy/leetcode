@@ -90,9 +90,7 @@ pub fn int_to_roman3(num: i32) -> String {
     }
     digits.into_iter().enumerate().rev().map(|(i, d)| {
         match d {
-            1 => vec![ones[i]],
-            2 => vec![ones[i], ones[i]],
-            3 => vec![ones[i], ones[i], ones[i]],
+            m @ 1..=3 => vec![ones[i];m as usize],
             4 => vec![ones[i], fives[i]],
             5 => vec![fives[i]],
             6 => vec![fives[i], ones[i]],
