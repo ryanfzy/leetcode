@@ -97,10 +97,7 @@ pub fn test_merge_k_lists() {
                             val: 4,
                             next: Some(Box::new(ListNode {
                                 val: 5,
-                                next: Some(Box::new(ListNode {
-                                    val: 6,
-                                    next: None
-                                }))
+                                next: Some(Box::new(ListNode::new(6)))
                             }))
                         }))
                     }))
@@ -150,10 +147,7 @@ pub fn test_merge_k_lists2() {
                             val: 4,
                             next: Some(Box::new(ListNode {
                                 val: 5,
-                                next: Some(Box::new(ListNode {
-                                    val: 6,
-                                    next: None
-                                }))
+                                next: Some(Box::new(ListNode::new(6)))
                             }))
                         }))
                     }))
