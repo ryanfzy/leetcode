@@ -29,3 +29,4 @@ pub mod thirty;
 pub mod thirtyone;
 pub mod thirtytwo;
 pub mod thirtythree;
+pub mod thirtyfour;
