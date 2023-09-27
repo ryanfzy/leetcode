@@ -30,3 +30,4 @@ pub mod thirtyone;
 pub mod thirtytwo;
 pub mod thirtythree;
 pub mod thirtyfour;
+pub mod three_six;
