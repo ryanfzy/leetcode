@@ -27,7 +27,6 @@ pub fn is_valid_sudoku(board: Vec<Vec<char>>) -> bool {
 
 #[test]
 pub fn test_is_valid_sudoku() {
-    println!("{}", 4 / 3);
     let b: Vec<Vec<char>> = vec![
         vec!['5','3','.','.','7','.','.','.','.'],
         vec!['6','.','.','1','9','5','.','.','.'],
